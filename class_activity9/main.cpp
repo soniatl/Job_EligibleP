@@ -13,5 +13,16 @@ using namespace std;
 
 int main()
 {
-    string
+    string citizenship, degree;
+    int experience;
+    
+    cout << "Are you a US citizen? (Yes/No): ";
+    cin >> citizenship;
+    
+    if (citizenship!="Yes") {
+        cout << "You're not eligible for a job"<<endl;
+        return 0;
+    }
+    
+    
 }
